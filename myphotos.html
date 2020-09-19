@@ -1,0 +1,66 @@
+<html>
+<head>
+	<!-- Required meta tags always come first -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+ 
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css" >
+
+	<title>Photos</title>
+</head>
+<body>
+	<nav class="navbar navbar-dark fixed-top">
+		<a id="homme_btn" class="navbar-brand mr-auto" href="./index.html"><h3>run<span class="logo">Z</span>en</h3></a>
+		<button id="menu_btn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="Navbar">			
+			<div class="d-flex flex-column justify-content-center" style="padding-top: 10px;">
+				<div class="p-2 text-center"><a class="nav-link nav-link-cus" href="./aboutme.html"><h4>ABOUT</h4></a></div>
+				<div class="p-2 text-center"><a class="nav-link nav-link-cus" href="#"><h4>PORTFOLIO</h4></a></div>
+				<div class="p-2 text-center"><a class="nav-link active nav-link-cus" href="#"><h4>PHOTOS</h4></a></div>
+			</div>
+		</div>
+	</nav>
+	<div class="container start_of_page">
+		<div class="row">
+			<ol class="col-12 breadcrumb">
+				<li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+				<li class="breadcrumb-item active">Photos</li>
+			</ol>
+			<div class="col-12 col-sm-6">
+				<h3>Photo Gallery</h3>			  
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-6 col-sm-6">
+				<div class="carousel slide" id="albumcarousel" data-ride="carousel">
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active">
+							<img class="d-block img-fluid" src="img/mypics/me.jpg" alt="myself">
+							<div class="carousel-caption">
+								<h3>Album</h3>
+								<p>My Photos</p>
+								<a class="album-view-link" href="#"><p>View</p></a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>	
+	 
+	 <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+	 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+	 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+	 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

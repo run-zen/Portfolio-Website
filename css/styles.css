@@ -1,5 +1,5 @@
 .navbar-dark {
-	background-color: #28252b;
+	background: linear-gradient(to left, #8942a8, #ba382f);
 }
 
 .start_of_page {
@@ -19,19 +19,12 @@
 }
 .p-2:hover {
 	background-color: #03DAC6;
-	color: white;
+	color: black;
 }
 
-a:hover {
-	color: white;
-}
-
-body {
+.home_page {
 	overflow: hidden;
-	background-color: #28252b;
-}
-.menu {
-	z-index: -1;
+	background: linear-gradient(to left, #8942a8, #ba382f);
 }
 .custom {
 	position: fixed;
@@ -44,5 +37,46 @@ body {
 	position: fixed;
 	top: 50%;
 }
+ #home_btn{
+	background-color: #28252b;
+	text-align: center;
+	margin: auto;
+}
+.brand {
+	height: 50px;
+	width: 100px;
+	border: 1px solid rgb(66, 65, 65);
+}
+.logo {
+	font-size: 40px;
+}
 
+.nav-link-cus {
+	color: white;
+}
 
+.nav-link-cus:hover {
+	color: black;
+}
+
+#Navbar {
+	border-bottom: ridge;
+}
+.carousel-item {
+	background: #4D41B9;
+}
+.carousel-item img{
+	height: 300px;
+}
+.carousel-caption {
+	position: absolute;
+	top: 30%;	
+	left: 50%;
+}
+.album-view-link {
+	color: #48f9ff;
+}
+.album-view-link:hover {
+	color: white;
+	text-decoration: none;
+}
