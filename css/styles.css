@@ -7,8 +7,8 @@
 }
 
 .row-content {
-	height: 100%;
-	border-bottom: 1px solid #442C2E ;
+	height: 70%;
+
 }
 .nav-item {
 	font-size: 15px;
@@ -16,10 +16,22 @@
 .navbar-toggler {
 	z-index: 1000;
 	margin-left: auto;
+	transition: 0.2s;
+}
+.p-2 {
+	transition: 0.2s;
+}
+.navbar-toggler:hover {
+	-ms-transform: scale(1); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.3); 
 }
 .p-2:hover {
 	background-color: #03DAC6;
 	color: black;
+	-ms-transform: scale(1); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.3); 
 }
 
 .home_page {
@@ -37,11 +49,15 @@
 	position: fixed;
 	top: 50%;
 }
+.navbar-brand {
+	transition: 0.3s;
+	margin-left: 5;
+}
 
-.brand {
-	height: 40px;
-	width: 100px;
-	border: 1px solid rgb(66, 65, 65);
+.navbar-brand:hover {
+	-ms-transform: scale(1); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.3); 
 }
 .logo {
 	font-size: 30px;
@@ -152,26 +168,25 @@ div.sticky {
 .social-media {
 	position: absolute;
 	bottom: 15%;
-	left: 42%;
-	
+	left: auto;
+	align-content: center;
 }
 
 .social-media-links {
 	font-size: xx-large;
-	transition: 0.2s;
-	text-decoration: none;
 }
 
 .centered-custom {
-	position: absolute;
-	bottom: 22%;
-	left: 44%;
+	text-align: center;
 }
-.social-media-links:hover {
+.p-1 {
+	transition: 0.3s;
+}
+.p-1:hover {
 	-ms-transform: scale(1); /* IE 9 */
 	-webkit-transform: scale(1.5); /* Safari 3-8 */
-	transform: scale(1.2); 
-	text-decoration: none;
+	transform: scale(1.3); 
+	
 }
 
 .fa {
@@ -182,4 +197,7 @@ div.sticky {
 	font-family: 'Sansita Swashed', cursive;
 	font-size: 25px;
 	
+}
+.footer {
+	height: 30%;
 }
