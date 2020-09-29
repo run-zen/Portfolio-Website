@@ -11,7 +11,7 @@
 	border-bottom: 1px solid #442C2E ;
 }
 .nav-item {
-	font-size: 50px;
+	font-size: 15px;
 }
 .navbar-toggler {
 	z-index: 1000;
@@ -37,18 +37,14 @@
 	position: fixed;
 	top: 50%;
 }
- #home_btn{
-	background-color: #28252b;
-	text-align: center;
-	margin: auto;
-}
+
 .brand {
-	height: 50px;
+	height: 40px;
 	width: 100px;
 	border: 1px solid rgb(66, 65, 65);
 }
 .logo {
-	font-size: 40px;
+	font-size: 30px;
 }
 
 .nav-link-cus {
@@ -62,21 +58,128 @@
 #Navbar {
 	border-bottom: ridge;
 }
-.carousel-item {
-	background: #4D41B9;
-}
-.carousel-item img{
-	height: 300px;
-}
-.carousel-caption {
-	position: absolute;
-	top: 30%;	
-	left: 50%;
-}
+
 .album-view-link {
-	color: #48f9ff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: rgb(255, 255, 255);	
+	font-size: 30px;
+	opacity: 1;
 }
 .album-view-link:hover {
-	color: white;
+	color: #ffffff;
 	text-decoration: none;
+}
+.album-thumbnail {
+	height: 300px;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: none;
+ }
+ .album:hover .overlay{
+	 transition: 0.6s;
+	 opacity: 1;
+ }
+.album:hover .album-thumbnail {
+	transition: 0.6s;
+	opacity: 0.8;
+}
+.album-caption {
+	position: absolute;
+	top: 70%;
+	left: 30%;
+	color: rgb(255, 255, 255);
+}
+.one-edge-shadow {
+	box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+  border-radius: 5px;	
+}
+.tab-content {
+	min-height: 900px;
+}
+
+.img-thumbnail {
+	height: 250px;
+	width: 350px;
+}
+.img-thumbnail:hover {
+	opacity: 0.8;
+}
+div.sticky {
+	
+	position: sticky;
+	top: 15%;
+	background-color: #5DADE2;
+	border-radius: 5px;
+}
+.img-cus {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+	height: 265px;
+}
+@media only screen and (max-width: 1080px) {
+	.img-cus {
+		min-width: 50%;
+		height: 200px;
+	}
+}
+
+.intro {
+	color: #212029;
+	font-size: 20px;
+}
+
+.social-media {
+	position: absolute;
+	bottom: 15%;
+	left: 42%;
+	
+}
+
+.social-media-links {
+	font-size: xx-large;
+	transition: 0.2s;
+	text-decoration: none;
+}
+
+.centered-custom {
+	position: absolute;
+	bottom: 22%;
+	left: 44%;
+}
+.social-media-links:hover {
+	-ms-transform: scale(1); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.2); 
+	text-decoration: none;
+}
+
+.fa {
+	color: black;
+}
+
+.home-logo {
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 25px;
+	
 }
