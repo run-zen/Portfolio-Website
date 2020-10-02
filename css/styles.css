@@ -199,5 +199,9 @@ div.sticky {
 	
 }
 .footer {
+	position: absolute;
+	margin: auto;
+	left: 0; bottom: 8%; right: 0;
+	z-index: 10;
 	height: 30%;
 }
