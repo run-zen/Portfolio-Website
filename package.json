@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/run-zen/Portfolio-Website#readme",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.5.4",
+    "minimist": "^1.2.5"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
